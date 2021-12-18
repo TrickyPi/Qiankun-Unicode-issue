@@ -1,0 +1,13 @@
+{
+  "name": "issue",
+  "version": "1.0.0",
+  "main": "index.js",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "start:main": "npm run start --workspace=main",
+    "start:sub": "npm run start --workspace=purehtml"
+  },
+  "license": "MIT"
+}
