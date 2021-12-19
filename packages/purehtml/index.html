@@ -6,6 +6,11 @@
     <title>Purehtml Example</title>
     <script src="//cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
     <style>
+      .ccc {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
       .bbb::after {
         content: "\2193";
       }
@@ -22,9 +27,11 @@
     >
       Purehtml Example
     </div>
-    <div style="text-align: center">
-      <i class="bbb"></i>
+    <div class="ccc">
+      <div>show arrow</div>
+      <div class="bbb"></div>
     </div>
+    <br />
     <div id="purehtml-container" style="text-align: center"></div>
     <script src="//localhost:7104/entry.js" entry></script>
   </body>
